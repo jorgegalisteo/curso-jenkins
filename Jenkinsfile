@@ -14,7 +14,7 @@ pipeline {
     stage('tercer paso') {
       steps {
         sh '''###muestro la fecha
-fecha1=date
+fecha1=`date`
 
 echo $fecha1
 
